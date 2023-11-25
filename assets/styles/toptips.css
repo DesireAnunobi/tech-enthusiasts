@@ -52,3 +52,123 @@ header nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
+
+/* Images in Main Content*/
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Main Section */
+.content {
+    width: 100%;
+    display: inline-block;
+}
+
+.content-section {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 370px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+.content-section1 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 270px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff9f43;
+    color: #ffffff;
+}
+
+.content-section3 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 490px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff9f43;
+    color: #ffffff;
+}
+.content-section2 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff6b6b;
+    color: #ffffff;
+}
+
+
+.content-section img {
+    max-height: 450px;
+    max-width: 400px;
+}
+
+.content-section1 img {
+    max-height: 200px;
+    max-width: 200px;
+}
+
+.content-section h2 {
+    font-size: 40px;
+}
+
+.content-section1 h2 {
+    font-size: 40px;
+}
+
+.content-section2 h2 {
+    font-size: 40px;
+}
+
+.content-section3 h2 {
+    font-size: 40px;
+}
+
+.content-section h3 {
+    font-size: 25px;
+}
+
+.content-section2 h3 {
+    font-size: 32px;
+}
+
+.content-section3 h3 {
+    font-size: 25px;
+}
+
+.button {
+    border-radius: 7px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 7px 10px 7px 10px;
+    cursor:grab;
+    font-size: 17px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.button, .content-section {
+    padding: 8px 11px 8px 11px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+/* Footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
