@@ -78,16 +78,16 @@ header nav ul li {
 .content-section1 {
     margin-bottom: 20px;
     padding: 50px;
-    height: 150px;
+    height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0984e3;
+    background-color: #2980b9;
     color: #ffffff;
 }
 
 .content-section2 {
     margin-bottom: 20px;
     padding: 50px;
-    height: 150px;
+    height: 180px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #e66767;
     color: #ffffff;
@@ -96,17 +96,53 @@ header nav ul li {
 .content-section3 {
     margin-bottom: 20px;
     padding: 50px;
-    height: 500px;
+    height: 400px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0984e3;
+    background-color: #2980b9;
+    color: #ffffff;
+}
+
+.content-section4 {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 150px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #e66767;
     color: #ffffff;
 }
 
 .content-section img {
     max-height: 450px;
+    max-width: 400px;
 }
 
-.content-section h2 {
-    margin-bottom: 20px;
+.content-section1, .content-section2, .content-section3, .content-section4, h2 {
     font-size: 36px;
+}
+
+.content-section1, .content-section2, .content-section3, .content-section4, h3 {
+    font-size: 24px;
+}
+
+.button {
+    border-radius: 7px;
+    background-color: #ffffff;
+    text-align: center;
+    padding: 7px 10px 7px 10px;
+    cursor:grab;
+    font-size: 17px;
+    font-weight: 400;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* Footer */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
 }
