@@ -80,7 +80,7 @@ header nav ul li {
     justify-content: space-between;
     height: 700px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #1e3799;
+    background-color: #e66767;
 }
 
 .howtoguide {
@@ -92,11 +92,16 @@ header nav ul li {
     margin-bottom: 10px;
     text-align: center;
 }
+.howtoguide h2 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 45px;
+}
 
 .howtoguide img {
     display: block;
     margin: 10px auto;
-    max-width: 150px;
+    max-width: 560px;
 }
 
 .button {
