@@ -71,6 +71,10 @@ header nav ul li {
     display: inline-block;
 }
 
+.content-section1 h2 .title {
+    color: #ea8685;
+}
+
 .content-section1 {
     margin-bottom: 20px;
     padding: 50px;
