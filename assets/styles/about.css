@@ -65,13 +65,13 @@ header nav ul li {
     background-position: center;
 }
 
-
+/* Main Content */
 .flex-container {
     display: flex;
     justify-content: space-between;
 }
 
-.benefits {
+.profile {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -83,22 +83,22 @@ header nav ul li {
     background-color: #e66767;
 }
 
-.howtoguide {
+.about {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
-.howtoguide h3 {
+.about h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-.howtoguide h2 {
+.about h2 {
     margin-bottom: 10px;
     text-align: center;
     font-size: 45px;
 }
 
-.howtoguide img {
+.about img {
     display: block;
     margin: 10px auto;
     max-width: 560px;
@@ -106,10 +106,11 @@ header nav ul li {
 
 .button {
     border-radius: 7px;
-    background-color: #8854d0;
+    background-color: #ffffff;
     text-align: center;
     cursor:grab;
-    font-size: 17px;
+    padding: 7px;
+    font-size: 21px;
     font-weight: 200;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 }
